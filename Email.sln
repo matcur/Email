@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src\Email.Core", "src\Email.Core\Email.Core.csproj", "{2ED6F4D2-6D86-4DEA-9CD4-DB9ADE797FC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED6F4D2-6D86-4DEA-9CD4-DB9ADE797FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED6F4D2-6D86-4DEA-9CD4-DB9ADE797FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED6F4D2-6D86-4DEA-9CD4-DB9ADE797FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED6F4D2-6D86-4DEA-9CD4-DB9ADE797FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775F7F42-A01C-45A9-8D84-94C899AE8696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775F7F42-A01C-45A9-8D84-94C899AE8696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775F7F42-A01C-45A9-8D84-94C899AE8696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775F7F42-A01C-45A9-8D84-94C899AE8696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
