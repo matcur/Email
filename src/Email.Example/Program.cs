@@ -13,7 +13,8 @@ namespace Email.Example
             var message = new EmailMessage(
                 "name",
                 "******",
-                new HtmlContent("<strong>Hi!!!</strong>")
+                new HtmlContent("<strong>Hi!!!</strong>"),
+                new FileContent("appsettings.json")
             );
 
             await new GmailClient(
