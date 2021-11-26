@@ -32,7 +32,6 @@ namespace Email.Core.Clients
         public async Task Send(MimeMessage message)
         {
             message.From.Add(new MailboxAddress(_name, _email));
-            message.From.Add(new MailboxAddress(_name, _email));
             using (_transport)
             {
                 await _transport.ConnectAsync("smtp.gmail.com", 587, false);
